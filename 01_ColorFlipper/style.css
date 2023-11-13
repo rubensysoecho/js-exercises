@@ -1,0 +1,39 @@
+*   {
+    font-family: sans-serif;
+}
+h1  {
+    color: white;
+    margin: 20px;
+}
+.color-div {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+}
+.color-indicator    {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 10px;
+}
+.btn-color  {
+    position: relative;
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    bottom: -350px;
+}
+
+.btn-color span  {
+    font-size: x-large;
+    color: white;
+}
